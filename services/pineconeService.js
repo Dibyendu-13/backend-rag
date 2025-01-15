@@ -2,7 +2,7 @@ const { Pinecone } = require('@pinecone-database/pinecone');
 const { v4: uuidv4 } = require('uuid'); // Import uuid for generating unique IDs
 const config = require('../config');
 
-const pc = new Pinecone({ apiKey: config.pineconeApiKey });
+const pc = new Pinecone({ apiKey: "pcsk_35jRmc_EoxaffnhmFR8Ww1MTF9vTGRWPxxEvCDBtxTdJYGFkjP9AubRha9qHAygbK8PMmh" });
 
 const pineconeService = {
     upsertVector: async (vector, source) => {

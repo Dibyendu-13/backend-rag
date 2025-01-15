@@ -9,7 +9,7 @@ const embeddingService = {
                 model: 'embed-english-v2.0' // Ensure this model outputs 4096-dimensional vectors
             }, {
                 headers: {
-                    'Authorization': `Bearer ${config.cohereApiKey}`,
+                    'Authorization': `Bearer 4w0kR5rurw26uGkHohWrYG1n0YsE7bxItBMEhX4a`,
                     'Content-Type': 'application/json'
                 }
             });
